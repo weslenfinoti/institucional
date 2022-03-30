@@ -1,0 +1,15 @@
+{
+    "name": "vendor/sementespaulista",
+    "description": "Descrição do projeto sementespaulista.",
+    "authors": [
+        {
+            "name": "Quattromani",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "v5.1.0",
+        "fortawesome/font-awesome": "6.1.1",
+        "twbs/bootstrap-icons": "v1.8.1"
+    }
+}
