@@ -3,20 +3,20 @@
 
 <h1>Estrutura de pastas</h1>
 
--arquivos
-#apenas documentos diferentes de img
--img
-#apenas imagens
---produtos
-#imagem dos produtos
---categoria
-#imagem das categorias
--include
+<p>-arquivos</p>
+<p>#apenas documentos diferentes de img</p>
+<p>-img</p>
+<p>#apenas imagens</p>
+<p>--produtos</p>
+<p>#imagem dos produtos</p>
+<p>--categoria</p>
+<p>#imagem das categorias</p>
+<p>-include</p>
 
---paginas
+<p>--paginas</p>
 
---templates
+<p>--templates</p>
 
--modelo
+<p>-modelo</p>
 
--vendor
+<p>-vendor</p>
