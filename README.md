@@ -30,3 +30,9 @@
 <code>#arquivo de conexão</code>
 <li>vendor</li>
 <code>#bibliotecas e dependências do projeto</code>
+<ul>
+<li>css</li>
+<code>#arquivos de estilo personalizados</code>
+<li>js</li>
+<code>#arquivos de script personalizados</code>
+</ul>
