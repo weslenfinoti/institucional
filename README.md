@@ -1,5 +1,10 @@
 <h1>Sementes Paulista</h1>
 <p>Projeto institucional, de apresentação do mix de produto do cliente.</p>
+<p>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
+<h1>Tecnologias</h1>
+<p>Tecnologias</h1>
 
 <h1>Estrutura de pastas</h1>
 <ul>
