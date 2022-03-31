@@ -5,20 +5,28 @@
 <ul>
 <li>arquivos</li>
 <code>#apenas documentos diferentes de img</code>
-<li>-img</li>
+<li>img</li>
 <code>#apenas imagens</code>
 <ul>
-<li>--produtos</li>
+<li>produtos</li>
 <code>#imagem dos produtos</code>
-<li>--categoria</li>
+<li>categoria</li>
 <code>#imagem das categorias</code>
 </ul>
-<li>-include</li>
+<li>include</li>
 <ul>
-<li>--paginas</li>
-
-<li>--templates</li>
+<li>paginas</li>
+<code>#arquivos de páginas personalizadas</code>
+<li>templates</li>
+<code>#arquivos de cabeçalho e rodapé</code>
+<ul>
+<li>header</li>
+<code>#temas de cabeçalho</code>
+<li>footer</li>
+<code>#temas de rodapé</code>
 </ul>
-<li>-modelo</li>
-
-<li>-vendor</li>
+</ul>
+<li>modelo</li>
+<code>#arquivo de conexão</code>
+<li>vendor</li>
+<code>#bibliotecas e dependências do projeto</code>
