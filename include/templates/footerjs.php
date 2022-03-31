@@ -1,8 +1,4 @@
-<?php
+<script type="text/javascript" src="<?php echo $pastacf; ?>/vendor/js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo $pastacf; ?>/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+<script type="text/javascript" src="<?php echo $pastacf; ?>/vendor/js/app.js"></script>

@@ -18,3 +18,13 @@ width: 100%;
 .offcanvas-start{
     transform: translateX(100%);
 }
+
+.content{
+    margin:0 auto;
+    max-width:1100px;
+    
+}
+
+.nav-item a:link,.nav-item a:visited,.dropdown a:link,.dropdown a:visited{
+    color:#545454;
+}

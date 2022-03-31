@@ -5,9 +5,10 @@ $sqlpaginas = mysqli_query($con, "SELECT * FROM paginas WHERE status = '1' OR st
 while($lnpag = mysqli_fetch_array($sqlpaginas)) {
     $paginas[] = $lnpag["slug"];
 }
+
 //verifica se existe um arquivo na pasta
-$filename = $_SERVER['DOCUMENT_ROOT'].'/include/paginas/'.$arquivo.'.php';
-      
+$filename = $_SERVER['DOCUMENT_ROOT'].''.$pastacf.'/include/paginas/'.$arquivo.'.php';
+    
 if(isset($supersub) && $supersub != '') {
 //arquivo de tratamento da quarta barra da url    
     include("supersub.php");
@@ -37,7 +38,7 @@ elseif(isset($arquivo) && in_array($arquivo, $paginas)) {
 
 	else {
 //caso não encontre o arquivo ele puxa o arquivo categoria.php se tornando dinamico o conteudo com base em um template   
-	include('categoria.php');
+	include('padrao.php');
 	}
         
 }elseif(isset($arquivo) && $arquivo == '') {
