@@ -1,8 +1,16 @@
-<?php
+<div class="content py-5">
+    <div class="row">
+        <h1></h1>
+        <p></p>
+        <?php 
+       //inclui listagem de produtos
+        include('produtos/lista-produtos.php');
+        
+        echo $lista_produtos;
+  
+?>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+    </div>
+
+</div>

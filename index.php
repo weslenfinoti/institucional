@@ -1,4 +1,6 @@
 <?php
+ ob_start(); 
+
 //conect banco
 include('modelo/conect.php');
 //consulta configurações principais

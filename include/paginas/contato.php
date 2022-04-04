@@ -1,6 +1,6 @@
 <div class="content py-4">
     <div class="row">
-        <div class="col-5">
+        <div class="col-5 pt-4">
 <form>
   <div class="form-row">
     <div class="form-group col-md-12">
@@ -15,21 +15,24 @@
     </div>
   </div>
   <div class="form-group col-md-12">
-    <label for="inputEndereco">Endereço</label>
-    <input type="text" class="form-control" id="inputEndereco" placeholder="Rua dos Bobos, nº 0">
+    <label for="inputEndereco">Empresa</label>
+    <input type="text" class="form-control" id="inputEndereco" placeholder="">
   </div>
-    <div class="form-group col-md-12">
-      <label for="inputCEP">CEP</label>
+    <div class="row">
+    <div class="form-group col-md-6">
+      <label for="inputCEP">Telefone</label>
       <input type="text" class="form-control" id="inputCEP">
     </div>
-  <div class="form-row">
-    <div class="form-group col-md-12">
-      <label for="inputCidade">Cidade</label>
-      <input type="text" class="form-control" id="inputCidade">
-    </div>
-    <div class="form-group col-md-12">
+        <div class="form-group col-md-6">
+      <label for="inputCEP">Whatsapp</label>
+      <input type="text" class="form-control" id="inputCEP">
+    </div>   
+  </div>
+  <div class="row">
+      <div class="form-group col-md-4">
       <label for="inputEstado">Estado</label>
 <select id="inputEstado" class="form-control">
+    <option value="">Selecione</option>
     <option value="AC">Acre</option>
     <option value="AL">Alagoas</option>
     <option value="AP">Amapá</option>
@@ -60,6 +63,11 @@
     <option value="EX">Estrangeiro</option>
 </select>
     </div>
+    <div class="form-group col-md-8">
+      <label for="inputCidade">Cidade</label>
+      <input type="text" class="form-control" id="inputCidade">
+    </div>
+    
 
   </div>
     <div class="form-group col-md-12">

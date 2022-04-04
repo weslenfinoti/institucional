@@ -1,10 +1,20 @@
+<?php
+//consulta produto interno
+$sqlprod = mysqli_query($con,"SELECT * FROM produtos WHERE status = '1' AND slug = '$post' LIMIT 1");
+while($lnprod = mysqli_fetch_array($sqlprod)){
+    $tituloprod  = $lnprod['titulo'];
+}
+?>
+
+
+
 <div class="content py-4">
-    <div class="row">
-        <div class="col-4">
+    <div class="row m-0">
+        <div class="col-12 col-md-4">
             <img src="https://via.placeholder.com/1000x1000/ccc/fff" class="d-block w-100" alt="...">
         </div>
-            <div class="col-8">
-  <h2>Empresa</h2>
+            <div class="col-12 col-md-8">
+  <h1><?php echo $tituloprod; ?></h1>
   <h4>Lorem ipsum..</h4>      
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?
 

@@ -1,8 +1,17 @@
-
+<h1 style="display:none;"><?php echo $titulocf; ?></h1>
 <!--sidebar menu mobile -->
+     <div class="spinner-wrapper2">
+
+    </div>
+    <div class="spinner-wrapper">
+        <div class="spinner-border text-primary" role="status">
+            <img src="<?php echo $pastacf.'/'.'img/loading.gif' ?>" width="125"/>
+            <span class="visually-hidden">Carregando...</span>
+        </div>
+    </div>
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="false">
     <div class="offcanvas-header">
-        <h6 class="offcanvas-title d-none d-sm-block" id="offcanvas">Menu</h6>
+        <div class="offcanvas-title d-none d-sm-block" id="offcanvas">Menu</div>
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
     </div>
     <div class="offcanvas-body px-0" >
