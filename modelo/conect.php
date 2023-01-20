@@ -1,6 +1,6 @@
 <?php
 
-$con = new mysqli("localhost","root","","sementespaulista");
+$con = new mysqli("localhost","root","","base");
 
 // Check connection
 if ($con -> connect_error) {
